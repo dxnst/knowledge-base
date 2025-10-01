@@ -103,23 +103,23 @@
   )
 }
 
-#let info-box(content, title: "ℹ️ Info") = {
+#let note-info-box(content, title: "ℹ️ Info") = {
   note-box(content, color: frost2, stroke-color: night2, title: title)
 }
 
-#let warning-box(content, title: "⚠️ Atención") = {
+#let note-warning-box(content, title: "⚠️ Atención") = {
   note-box(content, color: aurora2, stroke-color: night1, title: title)
 }
 
-#let tip-box(content, title: "💡 Tip") = {
+#let note-tip-box(content, title: "💡 Tip") = {
   note-box(content, color: aurora3, stroke-color: night1, title: title)
 }
 
-#let success-box(content, title: "✅ Importante") = {
+#let note-success-box(content, title: "✅ Importante") = {
   note-box(content, color: aurora4, stroke-color: night3, title: title)
 }
 
-#let danger-box(content, title: "🚨 Cuidado") = {
+#let note-danger-box(content, title: "🚨 Cuidado") = {
   note-box(content, color: aurora1, stroke-color: night1, title: title)
 }
 
@@ -182,7 +182,7 @@
 }
 
 // Updated formula-box with better line breaking
-#let formula-box(name, equation, description: "", use-math: true) = {
+#let note-formula-box(name, equation, description: "", use-math: true) = {
   note-box(
     [
       #set text(weight: "bold", fill: black, size: 10pt)
@@ -207,11 +207,11 @@
 }
 
 // Alternative formula box for text-based formulas
-#let text-formula-box(name, formula-text, description: "") = {
-  formula-box(name, formula-text, description: description, use-math: false)
+#let note-formula-box-text(name, formula-text, description: "") = {
+  note-formula-box(name, formula-text, description: description, use-math: false)
 }
 
-#let normal-range(parameter, range, unit: "") = {
+#let note-normal-range(parameter, range, unit: "") = {
   note-box(
     [
       #set text(weight: "bold", fill: black)
@@ -235,6 +235,57 @@
     #text(weight: "bold", fill: night2, size: 10pt)[📝 #title]
     #v(0.5em)
     #text(fill: night1, style: "italic", size: 9pt)[_Espacio para notas, observaciones, o esquemas_]
+  ]
+}
+
+// Related notes section
+#let note-related(notes) = {
+  if notes.len() == 0 {
+    return
+  }
+  
+  block(
+    fill: frost3,
+    stroke: night2,
+    width: 100%,
+    inset: 8pt,
+    radius: 4pt,
+  )[
+    #text(weight: "bold", fill: black, size: 10pt)[🔗 Notas relacionadas]
+    #v(0.3em)
+    #for note in notes [
+      #set text(fill: black, size: 9pt)
+      • #note.title (#text(font: "monospace", size: 8pt)[#note.id])
+      #linebreak()
+    ]
+  ]
+}
+
+// Tags section
+#let note-tags(tags) = {
+  if tags.len() == 0 {
+    return
+  }
+  
+  block(
+    fill: aurora5,
+    stroke: night1,
+    width: 100%,
+    inset: 6pt,
+    radius: 4pt,
+  )[
+    #text(weight: "bold", fill: black, size: 9pt)[🏷️ Etiquetas: ]
+    #for (index, tag) in tags.enumerate() [
+      #box(
+        fill: white,
+        inset: (x: 4pt, y: 3pt),
+        radius: 2pt,
+        stroke: night2,
+      )[
+        #text(size: 8pt, fill: black)[#tag]
+      ]
+      #if index < tags.len() - 1 [ ]
+    ]
   ]
 }
 

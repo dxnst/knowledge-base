@@ -1,12 +1,12 @@
 #import "style.typ": *
 
 #show: note-notes.with(
-  title: "{{title}}",
+  title: "Ictericia neonatal",
   author: "Daniel Soto",
   font: "Ysabeau"
 )
 
-= {{title}}
+= Ictericia neonatal
 
 // Bibliography
 #bibliography("bib.yml", style: "mary-ann-liebert-vancouver")

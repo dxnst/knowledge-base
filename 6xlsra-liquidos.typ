@@ -7,6 +7,7 @@
 )
 
 = Líquidos de mantenimiento
+
 El método Holliday-Segar es el más utilizado para aproximar el volumen de
 líquidos de mantenimiento:
 
@@ -71,7 +72,7 @@ volumen de los líquidos de mantenimiento del método Holliday-Segar.
   stroke-color: night0
 )
 
-#danger-box[
+#note-danger-box[
   Muchos niños hospitalizados presentan mayores pérdidas insensibles:
 ]
 
@@ -94,12 +95,12 @@ respiratorias debido al uso de aire humidificado.
 El método más preciso de determinar el déficit de líquidos toma en cuenta la
 diferencia entre el peso antes de la enfermedad y el actual:
 
-#text-formula-box(
+#note-formula-box-text(
   "Déficit de líquidos", 
   "Déficit de líquidos (L) = peso antes de la enfermedad (kg) - peso actual (kg)"
 )
 
-#info-box[
+#note-info-box[
   Si no se conoce la diferencia o pérdida de peso, se puede aproximar el
   déficit de líquidos a partir del porcentaje de deshidratación clínico:
 ]
@@ -129,7 +130,7 @@ diferencia entre el peso antes de la enfermedad y el actual:
   stroke-color: night2
 )
 
-#text-formula-box(
+#note-formula-box-text(
   "Déficit de líquidos",
   "1% Deshidratación = 10mL/kg de déficit de líquido"
 )
@@ -137,7 +138,7 @@ diferencia entre el peso antes de la enfermedad y el actual:
 
 = Líquidos en deshidratación
 
-#success-box[
+#note-success-box[
   - La reanimación y reposición de volumen deben completarse en 24 horas.
   - La rehidratación oral es el método preferido para la reposición y mantenimiento.
 ]
@@ -173,7 +174,7 @@ solución salina normal o lactato de Ringer@NelsonEssentials33.
   stroke-color: night2
 )
 
-#success-box[
+#note-success-box[
   Un niño con deshidratación grave puede necesitar varios bolus de líquidos. La
   reanimación y rehidratación inicial se logra cuando los signos de déficit de
   volumen intravascular resuelven. El niño se muestra más alerta, mejora su
@@ -203,14 +204,14 @@ volumen arterial efectivo ha sido restablecido@HypovolemiaTreatmentUpToDate.
 - Administrar SRO adicional por cada pérdida gastrointestinal.
 - Una vez se logra la reposición, se puede iniciar alimentación y líquidos orales y se continúa con SRO por cada pérdida gastrointestinal.
 
-#danger-box[
+#note-danger-box[
   En deshidratación grave la TRO puede iniciarse después de una estabilización
   inicial con líquidos IV exitosa.
 ]
 
 === Contraindicaciones para TRO
 
-#danger-box[
+#note-danger-box[
   - Riesgo de aspiración.
   - Íleo paralítico.
   - Trastornos que limiten la absorción intestinal (ej. intestino corto).
@@ -222,7 +223,7 @@ volumen arterial efectivo ha sido restablecido@HypovolemiaTreatmentUpToDate.
 
 === Indicaciones para continuar con terapia IV
 
-#warning-box[
+#note-warning-box[
   - Incapacidad del niño de tomar SRO.
   - Incapacidad del cuidador de proveer SRO.
   - Fallo de SRO en proveer rehidratación adecuada (ej. vómito persistente).
@@ -231,7 +232,7 @@ volumen arterial efectivo ha sido restablecido@HypovolemiaTreatmentUpToDate.
 
 = Fase 3: Recuperación y pérdidas continuas
 
-#success-box[
+#note-success-box[
   - Continuar con líquidos de mantenimiento.
   - Monitorear cada hora las pérdidas gastrointestinales.
   - Administrar SRO adicional por cada pérdida gastrointestinal.
@@ -239,7 +240,7 @@ volumen arterial efectivo ha sido restablecido@HypovolemiaTreatmentUpToDate.
 
 = Resumen de manejo de líquidos en deshidratación grave
 
-#tip-box(title: "🔥 Protocolo paso a paso")[
+#note-tip-box(title: "🔥 Protocolo paso a paso")[
   1. Restaurar el volumen intravascular con solución isotónica: 20mL/kg durante 20min. Repetir si es necesario.
   2. Calcular los requerimientos de las siguientes 24 horas: mantenimiento + déficit de volumen.
   3. Restar la solución isotónica administrada de los requerimientos de 24 horas.
@@ -250,6 +251,17 @@ volumen arterial efectivo ha sido restablecido@HypovolemiaTreatmentUpToDate.
 // Bibliography
 #bibliography("bib.yml", style: "mary-ann-liebert-vancouver")
 
+// Tags
+#note-tags((
+  "líquidos", "deshidratación"
+))
+
+// Related notes
+#note-related((
+  // Add related notes here, for example:
+  // (id: "xfoqeb", title: "Líquidos"),
+))
+
 // Extra notes
 = Notas adicionales
-#note-space(height: 8cm, title: "Mis notas y observaciones")
+#note-space(height: 4cm, title: "Mis notas y observaciones")
