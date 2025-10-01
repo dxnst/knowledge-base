@@ -1,0 +1,113 @@
+Holliday1957:
+  type: article
+  title: The maintenance need for water in parental fluid therapy
+  author:
+  - Holliday, Malcolm A.
+  - Segar, William E.
+  date: 1957-05
+  page-range: 823-832
+  url: http://dx.doi.org/10.1542/peds.19.5.823
+  serial-number:
+    doi: 10.1542/peds.19.5.823
+    issn: 1098-4275
+  parent:
+    type: periodical
+    title: Pediatrics
+    publisher: American Academy of Pediatrics (AAP)
+    issue: 5
+    volume: 19
+Powers2015:
+  type: article
+  title: 'Dehydration: Isonatremic, Hyponatremic, and Hypernatremic Recognition and Management'
+  author: Powers, Karen S.
+  date: 2015-07
+  page-range: 274-285
+  url: http://dx.doi.org/10.1542/pir.36.7.274
+  serial-number:
+    doi: 10.1542/pir.36.7.274
+    issn: 1526-3347
+  parent:
+    type: periodical
+    title: Pediatrics In Review
+    publisher: American Academy of Pediatrics (AAP)
+    issue: 7
+    volume: 36
+Hellerstein1993:
+  type: article
+  title: 'Fluid and Electrolytes: Clinical Aspects'
+  author: Hellerstein, Stanley
+  date: 1993-03
+  page-range: 103-115
+  url: http://dx.doi.org/10.1542/pir.14.3.103
+  serial-number:
+    doi: 10.1542/pir.14.3.103
+    issn: 1526-3347
+  parent:
+    type: periodical
+    title: Pediatrics In Review
+    publisher: American Academy of Pediatrics (AAP)
+    issue: 3
+    volume: 14
+HarrietLane2023:
+  type: book
+  title: The Harriet Lane handbook
+  author: The Johns Hopkins Hospital
+  date: 2023-05
+  editor:
+  - Anderson, Camille C
+  - Kapoor, Sunaina
+  - Mark, Tiffany E
+  publisher:
+    name: Elsevier - Health Sciences Division
+    location: Philadelphia, PA
+  edition: 23
+DehydrationClinicalUpToDate:
+  type: web
+  title: Clinical assessment of hypovolemia (dehydration) in children
+  author: Somers, Michael
+  date: 2025
+  organization: UpToDate
+  url:
+    value: https://www.uptodate.com/contents/clinical-assessment-of-hypovolemia-dehydration-in-children
+    date: 2025-09-11
+HypovolemiaTreatmentUpToDate:
+  type: web
+  title: Treatment of hypovolemia (dehydration) in children in resource-abundant settings
+  author: Somers, Michael
+  date: 2025
+  organization: UpToDate
+  url:
+    value: https://www.uptodate.com/contents/treatment-of-hypovolemia-dehydration-in-children-in-resource-abundant-settings
+    date: 2025-09-11
+NelsonEssentials33:
+  type: chapter
+  title: Dehydration and Replacement Therapy
+  author:
+  - Londeree, Jackson
+  - Greenbaum, Larry
+  date: 2022
+  editor:
+  - Marcdante, Karen
+  - Kliegman, Robert
+  - Schuh, Abigail
+  parent:
+    type: book
+    title: Nelson essentials of pediatrics
+    publisher: Elsevier
+    edition: 9
+Nelson75:
+  type: chapter
+  title: '75'
+  parent:
+    type: chapter
+    title: Deficit Therapy
+    author: Greenbaum, Larry A.
+    date: 2024
+    editor:
+    - Kliegman, Robert
+    - St. Geme III, Joseph
+    parent:
+      type: book
+      title: Nelson Textbook of Pediatrics
+      publisher: Elsevier
+      edition: 22
