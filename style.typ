@@ -255,7 +255,7 @@
     #v(0.3em)
     #for note in notes [
       #set text(fill: black, size: 9pt)
-      • #note.title (#text(font: "monospace", size: 8pt)[#note.id])
+      • #note.title (#text(font: "Ysabeau", size: 8pt)[#note.id])
       #linebreak()
     ]
   ]

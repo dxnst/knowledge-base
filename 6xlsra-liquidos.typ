@@ -240,7 +240,7 @@ volumen arterial efectivo ha sido restablecido@HypovolemiaTreatmentUpToDate.
 
 = Resumen de manejo de líquidos en deshidratación grave
 
-#note-tip-box(title: "🔥 Protocolo paso a paso")[
+#note-tip-box(title: "Protocolo paso a paso")[
   1. Restaurar el volumen intravascular con solución isotónica: 20mL/kg durante 20min. Repetir si es necesario.
   2. Calcular los requerimientos de las siguientes 24 horas: mantenimiento + déficit de volumen.
   3. Restar la solución isotónica administrada de los requerimientos de 24 horas.
@@ -258,8 +258,6 @@ volumen arterial efectivo ha sido restablecido@HypovolemiaTreatmentUpToDate.
 
 // Related notes
 #note-related((
-  // Add related notes here, for example:
-  // (id: "xfoqeb", title: "Líquidos"),
 ))
 
 // Extra notes
