@@ -103,23 +103,23 @@
   )
 }
 
-#let note-info-box(content, title: "ℹ️ Info") = {
+#let note-info-box(content, title: "ⓘ Info") = {
   note-box(content, color: frost2, stroke-color: night2, title: title)
 }
 
-#let note-warning-box(content, title: "⚠️ Atención") = {
+#let note-warning-box(content, title: "⚠ Atención") = {
   note-box(content, color: aurora2, stroke-color: night1, title: title)
 }
 
-#let note-tip-box(content, title: "💡 Tip") = {
+#let note-tip-box(content, title: "✦ Tip") = {
   note-box(content, color: aurora3, stroke-color: night1, title: title)
 }
 
-#let note-success-box(content, title: "✅ Importante") = {
+#let note-success-box(content, title: "✓ Importante") = {
   note-box(content, color: aurora4, stroke-color: night3, title: title)
 }
 
-#let note-danger-box(content, title: "🚨 Cuidado") = {
+#let note-danger-box(content, title: "⚡ Cuidado") = {
   note-box(content, color: aurora1, stroke-color: night1, title: title)
 }
 
@@ -202,7 +202,7 @@
     ],
     color: aurora3,
     stroke-color: night1,
-    icon: "🧮"
+    icon: "∫"
   )
 }
 
@@ -219,7 +219,7 @@
     ],
     color: frost2,
     stroke-color: night2,
-    icon: "📊"
+    icon: "◈"
   )
 }
 
@@ -232,7 +232,7 @@
     radius: 4pt,
     fill: rgb("#FEFEFE")
   )[
-    #text(weight: "bold", fill: night2, size: 10pt)[📝 #title]
+    #text(weight: "bold", fill: night2, size: 10pt)[✎ #title]
     #v(0.5em)
     #text(fill: night1, style: "italic", size: 9pt)[_Espacio para notas, observaciones, o esquemas_]
   ]
@@ -251,7 +251,7 @@
     inset: 8pt,
     radius: 4pt,
   )[
-    #text(weight: "bold", fill: black, size: 10pt)[🔗 Notas relacionadas]
+    #text(weight: "bold", fill: black, size: 10pt)[⚯ Notas relacionadas]
     #v(0.3em)
     #for note in notes [
       #set text(fill: black, size: 9pt)
@@ -274,7 +274,7 @@
     inset: 6pt,
     radius: 4pt,
   )[
-    #text(weight: "bold", fill: black, size: 9pt)[🏷️ Etiquetas: ]
+    #text(weight: "bold", fill: black, size: 9pt)[◉ Etiquetas: ]
     #for (index, tag) in tags.enumerate() [
       #box(
         fill: white,
@@ -291,17 +291,17 @@
 
 // Quick emoji helpers
 #let emoji = (
-  info: "ℹ️",
-  warning: "⚠️",
-  tip: "💡",
-  success: "✅",
-  danger: "🚨",
-  formula: "🧮",
-  chart: "📊",
-  note: "📝",
-  book: "📚",
-  star: "⭐",
-  heart: "💖",
-  fire: "🔥",
-  sparkles: "✨"
+  info: "ⓘ",
+  warning: "⚠",
+  tip: "✦",
+  success: "✓",
+  danger: "⚡",
+  formula: "∫",
+  chart: "◈",
+  note: "✎",
+  book: "◙",
+  star: "★",
+  heart: "♥",
+  fire: "✹",
+  sparkles: "✧"
 )

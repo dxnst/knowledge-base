@@ -1,96 +1,12 @@
 #import "style.typ": *
 
 #show: note-notes.with(
-  title: "Líquidos",
+  title: "Deshidratación",
   author: "Daniel Soto",
   font: "Ysabeau"
 )
 
-= Líquidos de mantenimiento
-
-El método Holliday-Segar es el más utilizado para aproximar el volumen de
-líquidos de mantenimiento:
-
-#note-table(
-  (auto, auto, auto, auto),
-  (
-    [*Peso*], [*Volumen*], [*mL/kg/día*], [*mL/kg/h*],
-    [Primeros 10 kg], [100 mL], [4.2], [≈4],
-    [Segundos 10 kg], [50 mL], [2.1], [≈2], 
-    [Por cada kg extra], [20 mL], [0.8], [≈1]
-  ),
-  title: "Método Holliday-Segar@Holliday1957",
-  header-color: frost1,
-  stroke-color: night3
-)
-
-= Pérdidas sensibles
-En condiciones normales se puede estimar las pérdidas sensibles de la siguiente
-manera:
-
-#note-table(
-  (auto, auto),
-  (
-    [*Fuente*], [*Líquido*],
-    [Orina], [50mL/kg],
-    [Heces], [5mL/kg],
-  ),
-  title: "Pérdidas sensibles@Hellerstein1993",
-  header-color: frost2,
-  stroke-color: night2
-)
-
-Si las pérdidas anormales pueden ser medidas directamente, estas deben
-reemplazarse 1mL:1mL. Si no pueden medirse directamente se pueden estimar por
-cada episodio de la siguiente manera:
-
-#note-table(
-  (auto, auto, auto, auto, auto),
-  (
-    [*Fuente*], [*Líquido*], [*Na+*], [*K+*], [*Cl-*],
-    [Vómito], [2mL/kg], [20-80], [5-20], [100-150],
-    [Diarrea], [10mL/kg], [10-90], [10-80], [10-110],
-  ),
-  title: "Pérdidas sensibles anormales@Powers2015",
-  header-color: aurora3,
-  stroke-color: night3
-)
-
-= Pérdidas insensibles
-En niños sanos, el volumen de pérdidas insensibles es aproximadamente 1/3 del
-volumen de los líquidos de mantenimiento del método Holliday-Segar.
-
-#note-table(
-  (auto, auto),
-  (
-    [*Fuente*], [*Líquido*],
-    [Piel o Sudor], [30mL/kg],
-    [Respiración], [15mL/kg],
-  ),
-  title: "Pérdidas insensibles@Hellerstein1993",
-  header-color: aurora4,
-  stroke-color: night0
-)
-
-#note-danger-box[
-  Muchos niños hospitalizados presentan mayores pérdidas insensibles:
-]
-
-#note-table(
-  (auto, auto),
-  (
-    [*Fuente*], [*Líquido*],
-    [Fiebre], [+12% por cada °C arriba de 37],
-    [Hiperventilación], [+15-25mL/kg],
-  ),
-  title: "Pérdidas insensibles anormales@HarrietLane2023",
-  header-color: aurora1,
-  stroke-color: night1
-)
-
-Los niños en ventilación mecánica tienen menores pérdidas insensibles
-respiratorias debido al uso de aire humidificado.
-
+= Deshidratación
 = Déficit de líquidos
 El método más preciso de determinar el déficit de líquidos toma en cuenta la
 diferencia entre el peso antes de la enfermedad y el actual:
@@ -253,11 +169,12 @@ volumen arterial efectivo ha sido restablecido@HypovolemiaTreatmentUpToDate.
 
 // Tags
 #note-tags((
-  "líquidos", "deshidratación"
+  "pediatría", "líquidos", "deshidratación"
 ))
 
 // Related notes
 #note-related((
+  (id: "kb0qpe", title: "Balance Hidrico"),
 ))
 
 // Extra notes
