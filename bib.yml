@@ -111,3 +111,10 @@ Nelson75:
       title: Nelson Textbook of Pediatrics
       publisher: Elsevier
       edition: 22
+PALS2020:
+  type: book
+  title: Pediatric Advanced Life Support Provider Manual
+  author: American Heart Association
+  date: 2020
+  publisher:
+    name: American Heart Association
