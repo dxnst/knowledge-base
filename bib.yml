@@ -118,3 +118,13 @@ PALS2020:
   date: 2020
   publisher:
     name: American Heart Association
+LevothyroxineUpToDate:
+  type: web
+  title: Levothyroxine
+  author: Lexidrug
+  date: 2025
+  organization: UpToDate
+  url:
+    value: https://www.uptodate.com/contents/levothyroxine-drug-information
+    date: 2025-12-21
+
