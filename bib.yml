@@ -127,4 +127,135 @@ LevothyroxineUpToDate:
   url:
     value: https://www.uptodate.com/contents/levothyroxine-drug-information
     date: 2025-12-21
+Lieberthal2013:
+  type: article
+  title: The Diagnosis and Management of Acute Otitis Media
+  author:
+  - Lieberthal, Allan S.
+  - Carroll, Aaron E.
+  - Chonmaitree, Tasnee
+  - Ganiats, Theodore G.
+  - Hoberman, Alejandro
+  - Jackson, Mary Anne
+  - Joffe, Mark D.
+  - Miller, Donald T.
+  - Rosenfeld, Richard M.
+  - Sevilla, Xavier D.
+  - Schwartz, Richard H.
+  - Thomas, Pauline A.
+  - Tunkel, David E.
+  date: 2013-03
+  page-range: e964-e999
+  url: http://dx.doi.org/10.1542/peds.2012-3488
+  serial-number:
+    doi: 10.1542/peds.2012-3488
+    issn: 1098-4275
+  parent:
+    type: periodical
+    title: Pediatrics
+    publisher: American Academy of Pediatrics (AAP)
+    issue: 3
+    volume: 131
+RedBook2024:
+  type: book
+  title: 'Red Book: 2024–2027 Report of the Committee on Infectious Diseases'
+  date: 2024-04
+  editor:
+  - Kimberlin, David W.
+  - Banerjee, Ritu
+  - Barnett, Elizabeth D.
+  - Lynfield, Ruth
+  - Sawyer, Mark H.
+  publisher: American Academy of Pediatrics
+  url: http://dx.doi.org/10.1542/9781610027373
+  serial-number:
+    doi: 10.1542/9781610027373
+    isbn: '9781610027373'
+NelsonAntimicrobial2025:
+  type: book
+  title: 2025 Nelson’s Pediatric Antimicrobial Therapy
+  author: Palazzi, Debra L.
+  date: 2025
+  publisher:
+    name: American Academy of Pediatrics
+    location: Elk Grove Village
+  edition: 31th ed
+  serial-number:
+    isbn: '9781610028240'
+Gerber2009:
+  type: article
+  title: 'Prevention of Rheumatic Fever and Diagnosis and Treatment of Acute Streptococcal Pharyngitis: A Scientific Statement From the American Heart Association Rheumatic Fever, Endocarditis, and Kawasaki Disease Committee of the Council on Cardiovascular Disease in the Young, the Interdisciplinary Council on Functional Genomics and Translational Biology, and the Interdisciplinary Council on Quality of Care and Outcomes Research: Endorsed by the American Academy of Pediatrics'
+  author:
+  - Gerber, Michael A.
+  - Baltimore, Robert S.
+  - Eaton, Charles B.
+  - Gewitz, Michael
+  - Rowley, Anne H.
+  - Shulman, Stanford T.
+  - Taubert, Kathryn A.
+  date: 2009-03
+  page-range: 1541-1551
+  url: http://dx.doi.org/10.1161/CIRCULATIONAHA.109.191959
+  serial-number:
+    doi: 10.1161/circulationaha.109.191959
+    issn: 1524-4539
+  parent:
+    type: periodical
+    title: Circulation
+    publisher: Ovid Technologies (Wolters Kluwer Health)
+    issue: 11
+    volume: 119
+Shulman2012:
+  type: article
+  title: 'Clinical Practice Guideline for the Diagnosis and Management of Group A Streptococcal Pharyngitis: 2012 Update by the Infectious Diseases Society of America'
+  author:
+  - Shulman, Stanford T.
+  - Bisno, Alan L.
+  - Clegg, Herbert W.
+  - Gerber, Michael A.
+  - Kaplan, Edward L.
+  - Lee, Grace
+  - Martin, Judith M.
+  - Van Beneden, Chris
+  date: 2012-09
+  page-range: e86-e102
+  url: http://dx.doi.org/10.1093/cid/cis629
+  serial-number:
+    doi: 10.1093/cid/cis629
+    issn: 1058-4838
+  parent:
+    type: periodical
+    title: Clinical Infectious Diseases
+    publisher: Oxford University Press (OUP)
+    issue: 10
+    volume: 55
+Bradley2011:
+  type: article
+  title: 'The Management of Community-Acquired Pneumonia in Infants and Children Older Than 3 Months of Age: Clinical Practice Guidelines by the Pediatric Infectious Diseases Society and the Infectious Diseases Society of America'
+  author:
+  - Bradley, John S.
+  - Byington, Carrie L.
+  - Shah, Samir S.
+  - Alverson, Brian
+  - Carter, Edward R.
+  - Harrison, Christopher
+  - Kaplan, Sheldon L.
+  - Mace, Sharon E.
+  - McCracken, George H.
+  - Moore, Matthew R.
+  - St Peter, Shawn D.
+  - Stockwell, Jana A.
+  - Swanson, Jack T.
+  date: 2011-10
+  page-range: e25-e76
+  url: http://dx.doi.org/10.1093/cid/cir531
+  serial-number:
+    doi: 10.1093/cid/cir531
+    issn: 1058-4838
+  parent:
+    type: periodical
+    title: Clinical Infectious Diseases
+    publisher: Oxford University Press (OUP)
+    issue: 7
+    volume: 53
 

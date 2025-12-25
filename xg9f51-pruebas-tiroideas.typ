@@ -211,7 +211,7 @@
     width:  100%,
     inset: 8pt,
   )[
-    #text(weight: "bold", fill: white, size: 11pt)[🔍 Interpretación Clínica]
+    #text(weight: "bold", fill: white, size: 11pt)[🔍 Interpretación Clínica@HarrietLane2023]
   ]
   
   #block(inset: 5pt)[
